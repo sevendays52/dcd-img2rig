@@ -53,7 +53,8 @@
 <p align="center">
   <sub>
     <b>생성 환경 및 실측 소요 시간</b> · MacBook Pro (<b>Apple M5 Pro</b> · 15-core · <b>24 GB</b> 통합 메모리 · macOS MPS)<br/>
-    3DGS 생성 (262,144개 · 50 steps): <b>약 3분 48초</b> (227.5s) · 메시/FBX + UV + 19본 리깅: <b>4.7s</b> (200면) / <b>5.7s</b> (3,000면) · 모션 리타게팅: <b>~1s</b>
+    3DGS 생성 (262,144개 · 50 steps): <b>약 3분 48초</b> (227.5s) · 메시/FBX + UV + 19본 리깅: <b>4.7s</b> (200면) / <b>5.7s</b> (3,000면) · 모션 리타게팅: <b>~1s</b><br/>
+    예시 모델링 캐릭터: 스트리머 <b>독케익</b> 팬캐릭터 <b>「개떡이」</b> (<a href="#-저작권-및-라이선스">라이선스·IP 안내</a>)
   </sub>
 </p>
 
@@ -278,3 +279,5 @@ dcd-img2rig/
 | **[`facebook/dinov3-vith16plus-pretrain-lvd1689m`](https://huggingface.co/facebook/dinov3-vith16plus-pretrain-lvd1689m)** | **Meta DINOv3 License** | Hugging Face 게이티드 약관 동의 필요 |
 | **[`black-forest-labs/FLUX.2-dev`](https://huggingface.co/black-forest-labs/FLUX.2-dev) (VAE)** | **FLUX Non-Commercial License** | 비상업적·연구/학업 용도 *(상업적 활용 시 별도 라이선스 필요)* |
 | **[`gsplat.js`](https://github.com/dylanebert/gsplat.js)** | **MIT License** | Dylan Ebert — WebGL 스플랫 뷰어 |
+
+- **예시 데모 캐릭터 IP 안내**: 본 README 및 `assets/demo/` 시연 이미지·GIF에 사용된 예시 모델링 캐릭터 IP는 스트리머 **독케익** 팬캐릭터 **「개떡이」**입니다. 해당 에셋은 파이프라인 기능 시연(비상업적 예시) 목적으로만 포함되었으며, 캐릭터 IP의 권리는 원저작자에게 있으므로 본 저장소의 MIT 라이선스 범위에 포함되지 않습니다.

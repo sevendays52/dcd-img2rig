@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dcd-img2rig"
+version = "0.1.0"
+description = "Single image to 3D Gaussian Splat, Binary FBX 7.4 mesh, auto-rigging, and Mixamo motion retargeting studio."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "idol @ git+https://github.com/speridlabs/idol-sdk.git",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "plyfile>=1.0",
+    "scipy>=1.11",
+    "open3d>=0.18",
+    "pyvista>=0.43",
+    "trimesh>=4.0",
+    "huggingface_hub>=0.34",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+dcd-img2rig = "img2rig.server:main"
+img2rig-infer = "img2rig.inference:main"
+img2rig-fbx = "img2rig.mesh_convert:main"
+img2rig-rig = "img2rig.rig_bind:main"
+img2rig-retarget = "img2rig.motion_retarget:main"
+img2rig-preview = "img2rig.preview:main"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/img2rig"]

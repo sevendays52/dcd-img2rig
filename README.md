@@ -12,11 +12,11 @@
 </p>
 
 <p align="center">
-  <a href="https://mjudcd.com"><img src="https://img.shields.io/badge/MJU-DCD-003876" height="20" alt="명지대학교 디지털콘텐츠디자인학과" /></a>
-  <a href="https://huggingface.co/speridlabs/idol"><img src="https://img.shields.io/badge/Model-Idol-6E56CF" height="20" alt="Idol" /></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10--3.12-3776AB?logo=python&logoColor=white" height="20" alt="Python" /></a>
-  <a href="https://www.blender.org/download/"><img src="https://img.shields.io/badge/Blender-4.0%2B-F5792A?logo=blender&logoColor=white" height="20" alt="Blender" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" height="20" alt="MIT License" /></a>
+  <a href="https://mjudcd.com"><img src="assets/badges/mju-dcd.svg" height="20" alt="명지대학교 디지털콘텐츠디자인학과" /></a>
+  <a href="https://huggingface.co/speridlabs/idol"><img src="assets/badges/huggingface-idol.svg" height="20" alt="Hugging Face - Idol" /></a>
+  <a href="https://www.python.org/"><img src="assets/badges/python.svg" height="20" alt="Python" /></a>
+  <a href="https://www.blender.org/download/"><img src="assets/badges/blender.svg" height="20" alt="Blender" /></a>
+  <a href="LICENSE"><img src="assets/badges/license-mit.svg" height="20" alt="MIT License" /></a>
 </p>
 
 [AI 자동 세팅](#-ai-에이전트로-1분-만에-세팅하기) · [파이프라인 & Idol](#-파이프라인--기반-모델) · [시스템 요구 사항](#-시스템-요구-사항) · [설치 및 실행](#-설치-및-실행) · [CLI & 레퍼런스](#-cli-사용법) · [라이선스](#-저작권-및-라이선스)
